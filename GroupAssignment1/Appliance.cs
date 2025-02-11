@@ -46,7 +46,6 @@ namespace GroupAssignment1
                 Console.WriteLine("The appliance is not available to be checked out");
             }
         }
-        public abstract void DetermineAppliance();
         public abstract string FormatForFile();
 
     } // abstract class

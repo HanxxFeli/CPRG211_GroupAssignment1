@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\hgvfe\\OneDrive\\Desktop\\SAIT\\CPRG 211\\Group Assignments\\CPRG211_GroupAssignment1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\hgvfe\\onedrive\\desktop\\sait\\cprg 211\\group assignments\\cprg211_groupassignment1\\groupassignment1\\microwave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\microwave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\hgvfe\\onedrive\\desktop\\sait\\cprg 211\\group assignments\\cprg211_groupassignment1\\groupassignment1\\appliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\appliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,19 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Microwave.cs",
+              "DocumentMoniker": "C:\\Users\\hgvfe\\OneDrive\\Desktop\\SAIT\\CPRG 211\\Group Assignments\\CPRG211_GroupAssignment1\\GroupAssignment1\\Microwave.cs",
+              "RelativeDocumentMoniker": "GroupAssignment1\\Microwave.cs",
+              "ToolTip": "C:\\Users\\hgvfe\\OneDrive\\Desktop\\SAIT\\CPRG 211\\Group Assignments\\CPRG211_GroupAssignment1\\GroupAssignment1\\Microwave.cs",
+              "RelativeToolTip": "GroupAssignment1\\Microwave.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T18:11:52.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Appliance.cs",
               "DocumentMoniker": "C:\\Users\\hgvfe\\OneDrive\\Desktop\\SAIT\\CPRG 211\\Group Assignments\\CPRG211_GroupAssignment1\\GroupAssignment1\\Appliance.cs",
               "RelativeDocumentMoniker": "GroupAssignment1\\Appliance.cs",
               "ToolTip": "C:\\Users\\hgvfe\\OneDrive\\Desktop\\SAIT\\CPRG 211\\Group Assignments\\CPRG211_GroupAssignment1\\GroupAssignment1\\Appliance.cs",
               "RelativeToolTip": "GroupAssignment1\\Appliance.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAwwC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T18:05:43.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\hgvfe\\OneDrive\\Desktop\\SAIT\\CPRG 211\\Group Assignments\\CPRG211_GroupAssignment1\\GroupAssignment1\\Program.cs",
               "RelativeDocumentMoniker": "GroupAssignment1\\Program.cs",
