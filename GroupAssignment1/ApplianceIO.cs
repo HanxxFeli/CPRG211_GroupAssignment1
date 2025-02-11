@@ -9,7 +9,7 @@ namespace GroupAssignment1
 {
     internal static class ApplianceIO
     {
-        private const string PATH = @"..\..\..\repos\appliances.txt";
+        private const string PATH = @"..\..\..\res\appliances.txt";
         private const char sep = ';';
 
         public static List<Appliance> ReadFromFile()
