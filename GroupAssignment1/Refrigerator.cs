@@ -23,14 +23,6 @@ namespace GroupAssignment1
             this.Height = height;
             this.Width = width;
         }
-
-
-
-        public override void DetermineAppliance()
-        {
-            throw new NotImplementedException();
-        }
-
         public override string FormatForFile()
         {
             return $"{ItemNumber};{Brand};{Quantity};{Wattage};{Color};{Price},{Doors},{Height},{Width}";

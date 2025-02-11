@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "GroupAssignment1\\Refrigerator.cs",
               "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Refrigerator.cs",
               "RelativeToolTip": "GroupAssignment1\\Refrigerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T18:41:15.664Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "GroupAssignment1\\Microwave.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T18:11:52.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T18:11:52.799Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "GroupAssignment1\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T18:06:15.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T18:06:15.924Z"
             }
           ]
         }
