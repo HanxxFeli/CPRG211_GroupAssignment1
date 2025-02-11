@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hgvfe\\OneDrive\\Desktop\\SAIT\\CPRG 211\\Lab Assignments\\Lab 3 - Interfaces and Abstract Classes\\GroupAssignment1App\\GroupAssignment1\\GroupAssignment1.csproj": {}
+    "C:\\Users\\hgvfe\\OneDrive\\Desktop\\SAIT\\CPRG 211\\Group Assignments\\CPRG211_GroupAssignment1\\GroupAssignment1\\GroupAssignment1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hgvfe\\OneDrive\\Desktop\\SAIT\\CPRG 211\\Lab Assignments\\Lab 3 - Interfaces and Abstract Classes\\GroupAssignment1App\\GroupAssignment1\\GroupAssignment1.csproj": {
+    "C:\\Users\\hgvfe\\OneDrive\\Desktop\\SAIT\\CPRG 211\\Group Assignments\\CPRG211_GroupAssignment1\\GroupAssignment1\\GroupAssignment1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hgvfe\\OneDrive\\Desktop\\SAIT\\CPRG 211\\Lab Assignments\\Lab 3 - Interfaces and Abstract Classes\\GroupAssignment1App\\GroupAssignment1\\GroupAssignment1.csproj",
+        "projectUniqueName": "C:\\Users\\hgvfe\\OneDrive\\Desktop\\SAIT\\CPRG 211\\Group Assignments\\CPRG211_GroupAssignment1\\GroupAssignment1\\GroupAssignment1.csproj",
         "projectName": "GroupAssignment1",
-        "projectPath": "C:\\Users\\hgvfe\\OneDrive\\Desktop\\SAIT\\CPRG 211\\Lab Assignments\\Lab 3 - Interfaces and Abstract Classes\\GroupAssignment1App\\GroupAssignment1\\GroupAssignment1.csproj",
+        "projectPath": "C:\\Users\\hgvfe\\OneDrive\\Desktop\\SAIT\\CPRG 211\\Group Assignments\\CPRG211_GroupAssignment1\\GroupAssignment1\\GroupAssignment1.csproj",
         "packagesPath": "C:\\Users\\hgvfe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hgvfe\\OneDrive\\Desktop\\SAIT\\CPRG 211\\Lab Assignments\\Lab 3 - Interfaces and Abstract Classes\\GroupAssignment1App\\GroupAssignment1\\obj\\",
+        "outputPath": "C:\\Users\\hgvfe\\OneDrive\\Desktop\\SAIT\\CPRG 211\\Group Assignments\\CPRG211_GroupAssignment1\\GroupAssignment1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

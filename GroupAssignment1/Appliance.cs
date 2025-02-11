@@ -20,11 +20,11 @@ namespace GroupAssignment1
         public string ItemNumber { get; set; }
         public double Price { get; set; }
 
-        public double Wattage { get; set; } 
+        public double Wattage { get; set; }
         public int Quantity { get; set; }
 
         // Methods 
-        public Appliance(string brand, string color, string itemNumber, double price, int quantity, double wattage)
+        public Appliance(string itemNumber, string brand, int quantity, double wattage, string color, double price)
         {
             this.Brand = brand;
             this.Color = color;
@@ -34,9 +34,20 @@ namespace GroupAssignment1
             this.Wattage = wattage;
         }
 
-        public abstract void Checkout();
+        public void Checkout()
+        {
+            if (this.Quantity > 0)
+            {
+                this.Quantity--;
+                Console.WriteLine($"Appliance {ItemNumber} has beeen checked out.");
+            }
+            else
+            {
+                Console.WriteLine("The appliance is not available to be checked out");
+            }
+        }
         public abstract void DetermineAppliance();
-        public abstract void FormatForFile();
+        public abstract string FormatForFile();
 
     } // abstract class
 } // namespace
