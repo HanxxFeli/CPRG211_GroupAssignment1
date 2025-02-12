@@ -12,7 +12,6 @@ void CheckOut(List<Appliance> appliances)
             {
                 appliance.Quantity--;
                 Console.WriteLine($"Appliance {appliance.ItemNumber} has beeen checked out.");
-                Console.WriteLine(appliance);
             }
             else
             {
@@ -68,11 +67,7 @@ int userOption = Convert.ToInt32(option);
 switch (userOption)
 {
     case 1:
-        // appliance can be checked out 
-
-        // appliance not available 
-
-        // appliance does not exist
+        CheckOut(appliances);
         break;
     case 2:
         // search for appliance using appliance.brand 
@@ -200,6 +195,3 @@ switch (userOption)
         break;
 }
 
-
-// Test Checkout 
-//CheckOut(appliances);
