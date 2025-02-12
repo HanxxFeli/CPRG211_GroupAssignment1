@@ -1,28 +1,4 @@
 ﻿using GroupAssignment1;
-void CheckOut(List<Appliance> appliances)
-{
-    Console.WriteLine("Enter the item number of an appliance:");
-    string number= Console.ReadLine()!;
-    bool found= false;
-    foreach(Appliance appliance in appliances)
-    {
-       if (number.Equals(appliance.ItemNumber))
-       {
-            if (appliance.Quantity > 0)
-            {
-                appliance.Quantity--;
-                Console.WriteLine($"Appliance {appliance.ItemNumber} has beeen checked out.");
-            }
-            else
-            {
-                Console.WriteLine("The appliance is not available to be checked out");
-            }
-            found = true;
-            break;
-       }
-    }
-    if (!found) Console.WriteLine("No appliances found with that item number.");
-}
 
 // Create appliances list
 List<Appliance> appliances = ApplianceIO.ReadFromFile();
@@ -67,25 +43,10 @@ int userOption = Convert.ToInt32(option);
 switch (userOption)
 {
     case 1:
-        CheckOut(appliances);
+        ModernAppliance.CheckOut(appliances);
         break;
     case 2:
-        // search for appliance using appliance.brand 
-
-        // user input 
-        Console.WriteLine("Enter brand to search for:");
-        string brandSearch = Console.ReadLine().ToLower();
-
-        foreach (Appliance appliance in appliances)
-        {
-            if (appliance.Brand.ToLower() == brandSearch)
-            {
-                Console.WriteLine(appliance);
-                Console.WriteLine(); // empty space for formatting purposes
-            }
-        }
-        // no results of the search
-
+        ModernAppliance.SearchByBrand(appliances);
         break;
     case 3:
         // display appliance types 
