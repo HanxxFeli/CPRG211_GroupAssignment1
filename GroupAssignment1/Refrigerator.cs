@@ -43,7 +43,7 @@ namespace GroupAssignment1
                     doors = "four doors";
                     break;
             }
-            return $"ItemNumber: {ItemNumber}\nBrand: {Brand}\nQuantitiy: {Wattage}\nColor: {Color}\nPrice: {Price}\nDoors: {doors}\nHeight: {Height}\nWidth: {Width}";
+            return $"ItemNumber: {ItemNumber}\nBrand: {Brand}\nQuantitiy: {Quantity}\nWattage: {Wattage}\nColor: {Color}\nPrice: {Price}\nDoors: {doors}\nHeight: {Height}\nWidth: {Width}";
         }
     }
 }

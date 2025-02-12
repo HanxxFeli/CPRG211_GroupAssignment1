@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\appliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\appliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\applianceio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\applianceio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\dishwasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\dishwasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\res\\appliances.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\res\\appliances.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\dishwasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\dishwasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\microwave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\refrigerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\refrigerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\appliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\appliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +46,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "appliances.txt",
+              "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\res\\appliances.txt",
+              "RelativeDocumentMoniker": "GroupAssignment1\\res\\appliances.txt",
+              "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\res\\appliances.txt",
+              "RelativeToolTip": "GroupAssignment1\\res\\appliances.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-02-12T02:34:50.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ApplianceIO.cs",
               "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\ApplianceIO.cs",
               "RelativeDocumentMoniker": "GroupAssignment1\\ApplianceIO.cs",
               "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\ApplianceIO.cs",
               "RelativeToolTip": "GroupAssignment1\\ApplianceIO.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwEAAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwEAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T22:23:54.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Dishwasher.cs",
               "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Dishwasher.cs",
               "RelativeDocumentMoniker": "GroupAssignment1\\Dishwasher.cs",
@@ -63,54 +80,54 @@
               "RelativeToolTip": "GroupAssignment1\\Dishwasher.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAADcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T22:23:15.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-11T22:23:15.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Microwave.cs",
               "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Microwave.cs",
               "RelativeDocumentMoniker": "GroupAssignment1\\Microwave.cs",
               "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Microwave.cs",
               "RelativeToolTip": "GroupAssignment1\\Microwave.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAA9wDQAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowDQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T18:11:52.799Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Refrigerator.cs",
               "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Refrigerator.cs",
               "RelativeDocumentMoniker": "GroupAssignment1\\Refrigerator.cs",
               "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Refrigerator.cs",
               "RelativeToolTip": "GroupAssignment1\\Refrigerator.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAcwBgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwC0AAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T18:41:15.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Appliance.cs",
               "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Appliance.cs",
               "RelativeDocumentMoniker": "GroupAssignment1\\Appliance.cs",
               "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Appliance.cs",
               "RelativeToolTip": "GroupAssignment1\\Appliance.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAwwC8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T18:05:43.324Z"
+              "WhenOpened": "2025-02-11T18:05:43.324Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Program.cs",
               "RelativeDocumentMoniker": "GroupAssignment1\\Program.cs",
               "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Program.cs",
               "RelativeToolTip": "GroupAssignment1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwFAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-11T18:06:15.924Z",
               "EditorCaption": ""
