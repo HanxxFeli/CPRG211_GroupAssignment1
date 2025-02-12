@@ -71,6 +71,7 @@ namespace GroupAssignment1
                         break;
                 }  
             }
+            streamReader.Close();
             return appliances;
         }
 
@@ -84,6 +85,7 @@ namespace GroupAssignment1
                 
                 objWriter.WriteLine(line);
             }
+            objWriter.Close();
         }
         
     }
