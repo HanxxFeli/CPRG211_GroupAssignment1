@@ -51,6 +51,164 @@ namespace GroupAssignment1
             if(!found) Console.WriteLine("Appliance with that brand name is not available");//If brand name is entered wrongly
         }
 
-        public static void
+        public static void DisplayRefrigerator(List<Appliance> appliances)//To display refrigerators
+        {
+            List<Appliance> refrigerators = new List<Appliance>();
+            foreach (Appliance appliance in appliances)
+            {
+                if (appliance is Refrigerator)
+                {
+                    refrigerators.Add(appliance);
+                }
+            }
+            Console.WriteLine("Enter number of doors: 2 (double door), 3 (three doors) or 4 (four doors):");
+            string doorInput = Console.ReadLine()!;//Enter number of doors
+            int intdoorInput = int.Parse(doorInput)!;
+            bool found = false;
+            foreach (Refrigerator refrigerator in refrigerators) 
+            {
+                if (intdoorInput == refrigerator.Doors)
+                {
+                    Console.WriteLine($"{refrigerator}\n");
+                    found = true;//To avoid error message
+                }
+            }
+            if(!found) Console.WriteLine("Invalid number of doors.");
+        }
+
+        public static void DisplayVacuum(List<Appliance> appliances)//To display vacuums
+        {
+            List<Appliance> vacuums = new List<Appliance>();
+            foreach (Appliance appliance in appliances)
+            {
+                if (appliance is Vacuum)
+                {
+                    vacuums.Add(appliance);
+                }
+            }
+            Console.WriteLine("Enter battery voltage value. 18 V (low) or 24 V (high):");
+            string voltInput = Console.ReadLine()!;//Enter voltage
+            int intvoltInput = int.Parse(voltInput);
+            bool found = false;
+            foreach (Vacuum vacuum in vacuums)
+            {
+                if (intvoltInput == vacuum.BatteryVoltage)
+                {
+                    Console.WriteLine($"{vacuum}\n");
+                    found = true;//To avoid error message
+                }
+            }
+            if (!found) Console.WriteLine("Invalid battery voltage value.");
+        }
+
+        public static void DisplayMicrowave(List<Appliance> appliances)//To display microwavess
+        {
+            List<Appliance> microwaves = new List<Appliance>();
+            foreach (Appliance appliance in appliances)
+            {
+                if (appliance is Microwave)
+                {
+                    microwaves.Add(appliance);
+                }
+            }
+            Console.WriteLine("Room where the microwave will be installed: K (kitchen) or W (work site):");
+            string roomTypeInput = Console.ReadLine()!;//Enter Roomtype
+            bool found = false;
+            roomType roomTypeInputEnum;
+
+            if (roomTypeInput.Equals("K"))
+            {
+                roomTypeInputEnum = roomType.K;
+            }
+            else roomTypeInputEnum = roomType.W;
+
+            foreach (Microwave microwave in microwaves)
+            {
+                if (roomTypeInputEnum == microwave.RoomType)
+                {
+                    Console.WriteLine($"{microwave}\n");
+                    found = true;//To avoid error message
+                }
+            }
+            if (!found) Console.WriteLine("Invalid microwave room.");//If roomtype is wrong
+        }
+
+        public static void DisplayDishwasher(List<Appliance> appliances)//To display dishwasher
+        {
+            List<Appliance> dishwashers = new List<Appliance>();
+            foreach (Appliance appliance in appliances)
+            {
+                if (appliance is Microwave)
+                {
+                    dishwashers.Add(appliance);
+                }
+            }
+            Console.WriteLine("Enter the sound rating of the dishwasher: Qt (Quietest), Qr (Quieter), Qu(Quiet) or M (Moderate):");
+            string soundTypeInput = Console.ReadLine()!;
+            bool found = false;
+            soundRating soundTypeInputEnum;
+
+            if (soundTypeInput.Equals("Qt"))
+            {
+                soundTypeInputEnum = soundRating.Qt;
+            }
+            else if (soundTypeInput.Equals("Qr"))
+            {
+                soundTypeInputEnum = soundRating.Qr;
+            }
+            else if (soundTypeInput.Equals("Qu"))
+            {
+                soundTypeInputEnum = soundRating.Qu;
+            }
+            else
+            {
+                soundTypeInputEnum = soundRating.M;
+            }
+
+            foreach (Dishwasher dishwasher in dishwashers)
+            {
+                if (soundTypeInputEnum == dishwasher.SoundRating)
+                {
+                    Console.WriteLine($"{dishwasher}\n");
+                    found = true;//To avoid error message
+                }
+            }
+            if (!found) Console.WriteLine("Invalid microwave room.");//If roomtype is wrong
+        }
+
+        public static void SearchByType(List<Appliance> appliances) 
+        {
+            // display appliance types 
+            Console.WriteLine("Appliance Types" +
+                "\n1 – Refrigerators" +
+                "\n2 – Vacuums" +
+                "\n3 – Microwaves" +
+                "\n4 – Dishwashers\n");
+
+            Console.WriteLine("Enter type of appliance:");
+            string applianceOption = Console.ReadLine()!;
+
+            switch (applianceOption)
+            {
+                case "1":
+                    ModernAppliance.DisplayRefrigerator(appliances);
+                    break;
+                case "2":
+                    ModernAppliance.DisplayVacuum(appliances);
+                    break;
+                case "3":
+                    ModernAppliance.DisplayMicrowave(appliances);
+                    break;
+                case "4":
+                    ModernAppliance.DisplayDishwasher(appliances);
+                    break;
+                default:
+                    Console.WriteLine("Invalid Number");//If wrong number is input
+                    break;
+            }
+        }
+
+
+
     }//class
 }    
