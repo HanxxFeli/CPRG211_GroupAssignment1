@@ -25,7 +25,7 @@ namespace GroupAssignment1
         }
         public override string FormatForFile()
         {
-            return $"{ItemNumber};{Brand};{Quantity};{Wattage};{Color};{Price},{Doors},{Height},{Width}";
+            return $"{ItemNumber};{Brand};{Quantity};{Wattage};{Color};{Price};{Doors};{Height};{Width}";
         }
 
         public override string ToString()

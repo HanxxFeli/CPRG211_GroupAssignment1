@@ -2,8 +2,6 @@
 
 // Create appliances list
 List<Appliance> appliances = ApplianceIO.ReadFromFile();
-Refrigerator test = new Refrigerator("123","ABC",43,23,"Black",1234,2,123,222);
-appliances.Add(test);
 int userOption = 0;
 
 
