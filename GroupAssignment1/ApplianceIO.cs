@@ -29,10 +29,10 @@ namespace GroupAssignment1
                         appliance = new Refrigerator(fields[0], fields[1], int.Parse(fields[2]), double.Parse(fields[3]), fields[4], double.Parse(fields[5]), int.Parse(fields[6]), int.Parse(fields[7]), int.Parse(fields[8]));
                         appliances.Add(appliance);
                         break;
-                    //case "2":
-                    //    appliance = new Vacuum(fields[0], fields[1], int.Parse(fields[2]), double.Parse(fields[3]), fields[4], double.Parse(fields[5]), fields[6], double.Parse(fields[7]));
-                    //    appliances.Add(appliance);
-                    //    break;
+                    case "2":
+                        appliance = new Vacuum(fields[0], fields[1], int.Parse(fields[2]), double.Parse(fields[3]), fields[4], double.Parse(fields[5]), fields[6], double.Parse(fields[7]));
+                        appliances.Add(appliance);
+                        break;
                     case "3":
                         string enumField = fields[7];
                         roomType roomTypeValue;

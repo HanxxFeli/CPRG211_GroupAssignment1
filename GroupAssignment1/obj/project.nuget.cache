@@ -1,20 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "obEEeSLXlRQ=",
-  "success": true,
-  "projectFilePath": "C:\\Users\\enzod\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\GroupAssignment1.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\enzod\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.12\\microsoft.windowsdesktop.app.ref.8.0.12.nupkg.sha512",
-    "C:\\Users\\enzod\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.12\\microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
-    "C:\\Users\\enzod\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.12\\microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512",
-    "C:\\Users\\enzod\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.12\\microsoft.netcore.app.host.win-x64.8.0.12.nupkg.sha512"
-  ],
-=======
   "dgSpecHash": "NueYYy62QSo=",
   "success": true,
   "projectFilePath": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\GroupAssignment1.csproj",
   "expectedPackageFiles": [],
->>>>>>> Kunj2
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
