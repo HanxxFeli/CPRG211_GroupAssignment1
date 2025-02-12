@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GroupAssignment1
 {
-    public enum SoundRatingDishwasher { Moderate, Quietest, Quieter, Quiet }
+    public enum soundRating { Qt, Qr, Qu, M }
     internal class Dishwasher : Appliance
     {
         //private fields
@@ -16,13 +16,33 @@ namespace GroupAssignment1
         //public properties
         public string Feature { get; set; }
 
-        public string SoundRating { get; set; }
+        public soundRating SoundRating { get; set; }
+
+        public string SoundRatingDisplay
+        {
+            get
+            {
+                if (SoundRating == soundRating.Qt)
+                {
+                    return "Quietest";
+                }
+                else if (SoundRating == soundRating.Qr)
+                {
+                    return "Quieter";
+                }
+                else if (SoundRating == soundRating.Qu)
+                {
+                    return "Quiet";
+                }
+                else return "Moderate";
+            }
+        }
 
         //methods
-        public Dishwasher(string itemNumber,string brand,int quantity, double wattage, string color,  double price,  string feature, string soundRating) : base(brand, color, itemNumber, price, quantity, wattage)
+        public Dishwasher(string itemNumber,string brand,int quantity, double wattage, string color,  double price,  string feature, soundRating soundRating) : base(itemNumber, brand, quantity, wattage, color, price)
         {
-            Feature = feature;
-            SoundRating = soundRating;
+            this.Feature = feature;
+            this.SoundRating = soundRating;
         }
 
         public override string FormatForFile()
@@ -32,28 +52,15 @@ namespace GroupAssignment1
 
         public override string ToString()
         {
-            string display = $"{this.ItemNumber} \n" +
-                $"{this.Brand} \n" +
-                $"{this.Quantity} \n" +
-                $"{this.Wattage}\n" +
-                $"{this.Color}\n" +
-                $"{this.Price}\n" +
-                $"{this.Feature} \n" +
-                $"{this.SoundRating}";
-            return display;
+            return $"ItemNumber: {ItemNumber} " +
+                $"\nBrand: {Brand}" +
+                $"\nQuantity: {Quantity}" +
+                $"\nWattage: {Wattage}" +
+                $"\nColor: {Color}" +
+                $"\nPrice: {Price}" +
+                $"\nFeature: {Feature}" +
+                $"\nSoundRating: {SoundRatingDisplay}";
         }
-
-        public override void Checkout()
-        {
-            if (this.Quantity > 0)
-            {
-                this.Quantity--;
-                Console.WriteLine($"Appliance {this.ItemNumber} has been checked out.");
-            }
-            else
-            {
-                Console.WriteLine($"The appliance is not available to be checked out.");
-            }
-        }    
-    }
+         
+    } 
 }
