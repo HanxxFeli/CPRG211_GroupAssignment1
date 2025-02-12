@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "yOFiBklCDn8=",
+  "dgSpecHash": "obEEeSLXlRQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hgvfe\\OneDrive\\Desktop\\SAIT\\CPRG 211\\Group Assignments\\CPRG211_GroupAssignment1\\GroupAssignment1\\GroupAssignment1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\enzod\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\GroupAssignment1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\enzod\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.12\\microsoft.windowsdesktop.app.ref.8.0.12.nupkg.sha512",
+    "C:\\Users\\enzod\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.12\\microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
+    "C:\\Users\\enzod\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.12\\microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512",
+    "C:\\Users\\enzod\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.12\\microsoft.netcore.app.host.win-x64.8.0.12.nupkg.sha512"
+  ],
   "logs": []
 }
