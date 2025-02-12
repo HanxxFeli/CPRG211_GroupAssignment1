@@ -17,13 +17,12 @@ namespace GroupAssignment1
             set { _batteryVoltage = value >= 0 ? value : 0; }
         }
 
-        public int Grade
+        public string Grade
         {
-            get { return _grade; }
-            set { _grade = value >= 0 ? value : 0; }
+            get; set;
         }
 
-        public Vacuum(string itemNumber, string brand, int quantity, double wattage, string color, double price, int batteryVoltage, int grade) :
+        public Vacuum(string itemNumber, string brand, int quantity, double wattage, string color, double price, string grade, int batteryVoltage) :
             base(itemNumber, brand, quantity, wattage, color, price)
         {
             this.BatteryVoltage = batteryVoltage;
