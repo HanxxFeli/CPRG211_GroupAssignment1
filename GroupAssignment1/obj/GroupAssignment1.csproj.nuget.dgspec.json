@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\enzod\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\GroupAssignment1.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\enzod\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\GroupAssignment1.csproj",
         "packagesPath": "C:\\Users\\enzod\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\enzod\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\obj\\",
+=======
+    "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\GroupAssignment1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\GroupAssignment1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\GroupAssignment1.csproj",
+        "projectName": "GroupAssignment1",
+        "projectPath": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\GroupAssignment1.csproj",
+        "packagesPath": "C:\\Users\\pkunj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\obj\\",
+>>>>>>> Kunj2
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\enzod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\pkunj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> Kunj2
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

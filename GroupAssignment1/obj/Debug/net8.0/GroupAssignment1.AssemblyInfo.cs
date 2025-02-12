@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GroupAssignment1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+89b9abdd8a6d247fe412639f2f33d90d73447ca4")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fac65950cf043d6893d6ac5fd2d75cf5573f7442")]
+>>>>>>> Kunj2
 [assembly: System.Reflection.AssemblyProductAttribute("GroupAssignment1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GroupAssignment1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

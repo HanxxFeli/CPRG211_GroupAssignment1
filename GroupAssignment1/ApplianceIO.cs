@@ -47,7 +47,26 @@ namespace GroupAssignment1
                         appliances.Add(appliance);
                         break;
                     case "4" or "5":
-                        appliance = new Dishwasher(fields[0], fields[1], int.Parse(fields[2]), double.Parse(fields[3]), fields[4], double.Parse(fields[5]), fields[6], fields[7]);
+                        string dishWasherEnum = fields[7];
+                        soundRating soundTypeValue;
+
+                        if (dishWasherEnum.Equals("Qt"))
+                        {
+                             soundTypeValue= soundRating.Qt;
+                        }
+                        else if (dishWasherEnum.Equals("Qr"))
+                        {
+                            soundTypeValue = soundRating.Qr;
+                        }
+                        else if (dishWasherEnum.Equals("Qu"))
+                        {
+                            soundTypeValue = soundRating.Qu;
+                        }
+                        else
+                        {
+                            soundTypeValue = soundRating.M;
+                        }
+                        appliance = new Dishwasher(fields[0], fields[1], int.Parse(fields[2]), double.Parse(fields[3]), fields[4], double.Parse(fields[5]), fields[6], soundTypeValue);
                         appliances.Add(appliance);
                         break;
                 }  

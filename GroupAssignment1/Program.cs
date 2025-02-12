@@ -1,4 +1,33 @@
 ﻿using GroupAssignment1;
+void CheckOut(List<Appliance> appliances)
+{
+    Console.WriteLine("Enter the item number of an appliance:");
+    string number= Console.ReadLine()!;
+    bool found= false;
+    foreach(Appliance appliance in appliances)
+    {
+       if (number.Equals(appliance.ItemNumber))
+       {
+            if (appliance.Quantity > 0)
+            {
+                appliance.Quantity--;
+                Console.WriteLine($"Appliance {appliance.ItemNumber} has beeen checked out.");
+                Console.WriteLine(appliance);
+            }
+            else
+            {
+                Console.WriteLine("The appliance is not available to be checked out");
+            }
+            found = true;
+            break;
+       }
+    }
+    if (!found) Console.WriteLine("No appliances found with that item number.");
+}
+
+//Test Checkout
+List<Appliance> appliances=ApplianceIO.ReadFromFile();
+CheckOut(appliances);
 
 
 Console.WriteLine("Welcome to Modern Appliances!" +
