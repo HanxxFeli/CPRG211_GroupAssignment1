@@ -43,14 +43,14 @@ namespace GroupAssignment1
 
         public override string ToString()
         {
-            return $"ItemNumber: {ItemNumber} " +
-                $"\nBrand: {Brand}" +
-                $"\nQuantity: {Quantity}" +
-                $"\nWattage: {Wattage}" +
-                $"\nColor: {Color}" +
-                $"\nPrice: {Price}" +
-                $"\nCapacity: {Capacity}" +
-                $"\nRoomTypeDisplay: {RoomTypeDisplay}";
+            return $"ItemNumber: {ItemNumber}\n" +
+                $"Brand: {Brand}\n" +
+                $"Quantity: {Quantity}\n" +
+                $"Wattage: {Wattage}\n" +
+                $"Color: {Color}\n" +
+                $"Price: {Price}\n" +
+                $"Capacity: {Capacity}\n" +
+                $"RoomTypeDisplay: {RoomTypeDisplay}\n";
         }
     }
 }

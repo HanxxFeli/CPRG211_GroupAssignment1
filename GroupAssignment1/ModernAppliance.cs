@@ -39,7 +39,7 @@ namespace GroupAssignment1
             Console.WriteLine("Enter brand to search for:");
             string brandSearch = Console.ReadLine().ToLower();
             bool found = false;
-
+            Console.WriteLine("Matching Appliances: ");
             foreach (Appliance appliance in appliances)
             {
                 if (appliance.Brand.ToLower() == brandSearch)
@@ -70,7 +70,7 @@ namespace GroupAssignment1
             {
                 if (intdoorInput == refrigerator.Doors)
                 {
-                    Console.WriteLine($"{refrigerator}\n");
+                    Console.WriteLine($"{refrigerator}");
                     found = true;//To avoid error message
                 }
             }
@@ -95,7 +95,7 @@ namespace GroupAssignment1
             {
                 if (intvoltInput == vacuum.BatteryVoltage)
                 {
-                    Console.WriteLine($"{vacuum}\n");
+                    Console.WriteLine($"{vacuum}");
                     found = true;//To avoid error message
                 }
             }
@@ -127,7 +127,7 @@ namespace GroupAssignment1
             {
                 if (roomTypeInputEnum == microwave.RoomType)
                 {
-                    Console.WriteLine($"{microwave}\n");
+                    Console.WriteLine($"{microwave}");
                     found = true;//To avoid error message
                 }
             }
