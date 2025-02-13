@@ -138,7 +138,7 @@ namespace GroupAssignment1
             List<Appliance> dishwashers = new List<Appliance>();
             foreach (Appliance appliance in appliances)
             {
-                if (appliance is Microwave)
+                if (appliance is Dishwasher)
                 {
                     dishwashers.Add(appliance);
                 }
