@@ -8,7 +8,7 @@ namespace GroupAssignment1
 {
     // enum for room types
     enum roomType { K, W };
-    internal class Microwave : Appliance
+    internal class Microwave : Appliance//Reference of abstract class from which we inherit stuff
     {
         // private data 
         private double _capacity;
@@ -30,7 +30,7 @@ namespace GroupAssignment1
 
         // methods
         public Microwave(string itemNumber, string brand, int quantity, double wattage, string color, double price, double capacity, roomType roomType) :
-            base(itemNumber, brand, quantity, wattage, color, price)
+            base(itemNumber, brand, quantity, wattage, color, price)//Inheriting different attributes from the abtract class
         {
             this.Capacity = capacity;
             this.RoomType = roomType;

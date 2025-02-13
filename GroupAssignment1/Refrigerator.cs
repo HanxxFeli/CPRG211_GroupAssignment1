@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace GroupAssignment1
 {
-    internal class Refrigerator:Appliance
+    internal class Refrigerator:Appliance//Reference of abstract class from which we inherit stuff
     {
         private int _doors, _height, _width;
 
@@ -17,7 +17,7 @@ namespace GroupAssignment1
         public int Width { get; set; }
 
         public Refrigerator(string itemNumber, string brand, int quantity, double wattage, string color, double price, int doors, int height, int width) :
-            base(itemNumber, brand, quantity, wattage, color, price)
+            base(itemNumber, brand, quantity, wattage, color, price)//Inheriting different attributes from the abtract class
         {
             this.Doors = doors;
             this.Height = height;

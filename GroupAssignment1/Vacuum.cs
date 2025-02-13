@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace GroupAssignment1
 {
-    public enum voltageEnum { Low, High}
-    internal class Vacuum : Appliance
+    public enum voltageEnum { Low, High }// enum for battery voltage
+    internal class Vacuum : Appliance //Reference of abstract class from which we inherit stuff
     {
         private int _batteryVoltage;
         private string _grade;
@@ -39,7 +39,7 @@ namespace GroupAssignment1
         }
 
         public Vacuum(string itemNumber, string brand, int quantity, double wattage, string color, double price, string grade, int batteryVoltage) :
-            base(itemNumber, brand, quantity, wattage, color, price)
+            base(itemNumber, brand, quantity, wattage, color, price)//Inheriting different attributes from the abtract class
         {
             this.BatteryVoltage = batteryVoltage;
             this.Grade = grade;

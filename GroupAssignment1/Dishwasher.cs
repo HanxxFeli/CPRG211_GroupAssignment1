@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace GroupAssignment1
 {
-    public enum soundRating { Qt, Qr, Qu, M }
-    internal class Dishwasher : Appliance
+    public enum soundRating { Qt, Qr, Qu, M }// enum for sound rating
+    internal class Dishwasher : Appliance//Reference of abstract class from which we inherit stuff
     {
         //private fields
         private string _feature;
@@ -39,7 +39,7 @@ namespace GroupAssignment1
         }
 
         //methods
-        public Dishwasher(string itemNumber,string brand,int quantity, double wattage, string color,  double price,  string feature, soundRating soundRating) : base(itemNumber, brand, quantity, wattage, color, price)
+        public Dishwasher(string itemNumber,string brand,int quantity, double wattage, string color,  double price,  string feature, soundRating soundRating) : base(itemNumber, brand, quantity, wattage, color, price)//Inheriting different attributes from the abtract class
         {
             this.Feature = feature;
             this.SoundRating = soundRating;
