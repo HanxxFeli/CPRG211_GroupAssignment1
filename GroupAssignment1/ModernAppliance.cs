@@ -20,17 +20,18 @@ namespace GroupAssignment1
                     if (appliance.Quantity > 0)
                     {
                         appliance.Quantity--;
-                        Console.WriteLine($"Appliance {appliance.ItemNumber} has beeen checked out.");//WHere it checks out
+                        Console.WriteLine($"""Appliance "{appliance.ItemNumber}" has beeen checked out.""");//WHere it checks out
+                        Console.WriteLine();
                     }
                     else
                     {
-                        Console.WriteLine("The appliance is not available to be checked out");//Quantity is not available
+                        Console.WriteLine("The appliance is not available to be checked out\n");//Quantity is not available
                     }
                     found = true;
                     break;
                 }
             }
-            if (!found) Console.WriteLine("No appliances found with that item number.");//If the item number was not there
+            if (!found) Console.WriteLine("No appliances found with that item number.\n");//If the item number was not there
         }
 
         public static void SearchByBrand(List<Appliance> appliances) // To list appliances with the specific brand
@@ -206,6 +207,25 @@ namespace GroupAssignment1
                     Console.WriteLine("Invalid Number");//If wrong number is input
                     break;
             }
+        }
+
+        public static void RandomAppliance(List<Appliance> appliances)
+        {
+            // ask for number of appliance(s)
+            Console.WriteLine("Enter number of appliances:");
+            int NumberOfAppliances = Convert.ToInt32(Console.ReadLine()!);
+            Console.WriteLine("");
+
+            //randomizer
+            Random randomAppliance = new Random();
+            for (int i = 0; i < NumberOfAppliances; i++)
+            {
+                int rnd = randomAppliance.Next(NumberOfAppliances);
+             
+                Console.WriteLine($"{appliances[rnd]}\n");
+             
+            }
+       
         }
 
 
