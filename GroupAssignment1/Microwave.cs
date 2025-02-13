@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GroupAssignment1
 {
     // enum for room types
-    enum roomType { K, W };
+    enum roomType { K, W,NO };
     internal class Microwave : Appliance//Reference of abstract class from which we inherit stuff
     {
         // private data 

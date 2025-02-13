@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GroupAssignment1
 {
-    public enum soundRating { Qt, Qr, Qu, M }// enum for sound rating
+    public enum soundRating { Qt, Qr, Qu, M, NO }// enum for sound rating
     internal class Dishwasher : Appliance//Reference of abstract class from which we inherit stuff
     {
         //private fields

@@ -141,22 +141,26 @@ namespace GroupAssignment1
             string roomTypeInput = Console.ReadLine()!;//Enter Roomtype
             Console.WriteLine("Matching microwaves:\n");
             bool found = false;
-            roomType roomTypeInputEnum;
+            roomType roomTypeInputEnum=roomType.NO;//Dummy Enum to avoid any errors
 
             if (roomTypeInput.Equals("K"))//This is for conversion of the string to enum
             {
                 roomTypeInputEnum = roomType.K;
             }
-            else roomTypeInputEnum = roomType.W;
-
-            foreach (Microwave microwave in microwaves)
+            else if (roomTypeInput.Equals("W"))
             {
-                if (roomTypeInputEnum == microwave.RoomType)//Checks if any microwave is for that room type
-                {
-                    Console.WriteLine($"{microwave}");
-                    found = true;//To avoid error message
-                }
+                roomTypeInputEnum = roomType.W;
             }
+
+
+                foreach (Microwave microwave in microwaves)
+                {
+                    if (roomTypeInputEnum == microwave.RoomType)//Checks if any microwave is for that room type
+                    {
+                        Console.WriteLine($"{microwave}");
+                        found = true;//To avoid error message
+                    }
+                }
             if (!found) Console.WriteLine("Invalid microwave room.");//If roomtype is wrong
         }
 
@@ -179,7 +183,7 @@ namespace GroupAssignment1
             string soundTypeInput = Console.ReadLine()!;
             Console.WriteLine("Matching dishwashers:\n");
             bool found = false;
-            soundRating soundTypeInputEnum;
+            soundRating soundTypeInputEnum= soundRating.NO;//Dummy Enum to avoid any errors
 
             if (soundTypeInput.Equals("Qt"))//This is for conversion of the string to enum
             {
@@ -193,7 +197,7 @@ namespace GroupAssignment1
             {
                 soundTypeInputEnum = soundRating.Qu;
             }
-            else
+            else if (soundTypeInput.Equals("M"))
             {
                 soundTypeInputEnum = soundRating.M;
             }

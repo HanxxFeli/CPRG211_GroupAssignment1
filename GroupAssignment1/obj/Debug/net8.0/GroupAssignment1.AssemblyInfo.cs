@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GroupAssignment1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b8bf4fff61693f38d82c4fdadc0ec871ca5a5a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fb27c8090118fc91b78c803434e875561657eed")]
 [assembly: System.Reflection.AssemblyProductAttribute("GroupAssignment1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GroupAssignment1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

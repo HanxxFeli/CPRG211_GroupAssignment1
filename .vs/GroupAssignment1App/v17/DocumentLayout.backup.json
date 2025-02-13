@@ -3,40 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\vacuum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\vacuum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\modernappliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\modernappliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\dishwasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\dishwasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\applianceio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\applianceio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\modernappliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\modernappliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\res\\appliances.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\res\\appliances.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\microwave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\microwave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\vacuum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\vacuum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\appliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\appliance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\refrigerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\refrigerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\microwave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\microwave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|c:\\users\\pkunj\\source\\repos\\cprg211_groupassignment1\\groupassignment1\\res\\appliances.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C0717E6F-81A9-49DD-B095-8ABC5F6A406B}|GroupAssignment1\\GroupAssignment1.csproj|solutionrelative:groupassignment1\\res\\appliances.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,54 +38,67 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dishwasher.cs",
+              "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Dishwasher.cs",
+              "RelativeDocumentMoniker": "GroupAssignment1\\Dishwasher.cs",
+              "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Dishwasher.cs",
+              "RelativeToolTip": "GroupAssignment1\\Dishwasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T05:48:48.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Microwave.cs",
+              "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Microwave.cs",
+              "RelativeDocumentMoniker": "GroupAssignment1\\Microwave.cs",
+              "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Microwave.cs*",
+              "RelativeToolTip": "GroupAssignment1\\Microwave.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T05:47:47.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vacuum.cs",
+              "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Vacuum.cs",
+              "RelativeDocumentMoniker": "GroupAssignment1\\Vacuum.cs",
+              "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Vacuum.cs",
+              "RelativeToolTip": "GroupAssignment1\\Vacuum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T05:43:22.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModernAppliance.cs",
+              "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\ModernAppliance.cs",
+              "RelativeDocumentMoniker": "GroupAssignment1\\ModernAppliance.cs",
+              "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\ModernAppliance.cs",
+              "RelativeToolTip": "GroupAssignment1\\ModernAppliance.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwKsAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T05:34:09.576Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appliances.txt",
-              "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\res\\appliances.txt",
-              "RelativeDocumentMoniker": "GroupAssignment1\\res\\appliances.txt",
-              "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\res\\appliances.txt",
-              "RelativeToolTip": "GroupAssignment1\\res\\appliances.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-02-13T04:15:46.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Refrigerator.cs",
-              "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Refrigerator.cs",
-              "RelativeDocumentMoniker": "GroupAssignment1\\Refrigerator.cs",
-              "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Refrigerator.cs",
-              "RelativeToolTip": "GroupAssignment1\\Refrigerator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T03:00:32.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ApplianceIO.cs",
-              "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\ApplianceIO.cs",
-              "RelativeDocumentMoniker": "GroupAssignment1\\ApplianceIO.cs",
-              "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\ApplianceIO.cs",
-              "RelativeToolTip": "GroupAssignment1\\ApplianceIO.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T02:42:57.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Appliance.cs",
               "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Appliance.cs",
               "RelativeDocumentMoniker": "GroupAssignment1\\Appliance.cs",
@@ -106,68 +111,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ModernAppliance.cs",
-              "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\ModernAppliance.cs",
-              "RelativeDocumentMoniker": "GroupAssignment1\\ModernAppliance.cs",
-              "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\ModernAppliance.cs",
-              "RelativeToolTip": "GroupAssignment1\\ModernAppliance.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T02:27:59.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Microwave.cs",
-              "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Microwave.cs",
-              "RelativeDocumentMoniker": "GroupAssignment1\\Microwave.cs",
-              "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Microwave.cs",
-              "RelativeToolTip": "GroupAssignment1\\Microwave.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T02:27:57.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Vacuum.cs",
-              "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Vacuum.cs",
-              "RelativeDocumentMoniker": "GroupAssignment1\\Vacuum.cs",
-              "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Vacuum.cs",
-              "RelativeToolTip": "GroupAssignment1\\Vacuum.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T02:46:31.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Program.cs",
               "RelativeDocumentMoniker": "GroupAssignment1\\Program.cs",
               "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Program.cs",
               "RelativeToolTip": "GroupAssignment1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvwcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T02:50:23.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dishwasher.cs",
-              "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Dishwasher.cs",
-              "RelativeDocumentMoniker": "GroupAssignment1\\Dishwasher.cs",
-              "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\Dishwasher.cs",
-              "RelativeToolTip": "GroupAssignment1\\Dishwasher.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T03:01:26.719Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "appliances.txt",
+              "DocumentMoniker": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\res\\appliances.txt",
+              "RelativeDocumentMoniker": "GroupAssignment1\\res\\appliances.txt",
+              "ToolTip": "C:\\Users\\pkunj\\source\\repos\\CPRG211_GroupAssignment1\\GroupAssignment1\\res\\appliances.txt",
+              "RelativeToolTip": "GroupAssignment1\\res\\appliances.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-02-13T04:15:46.275Z"
             }
           ]
         }
