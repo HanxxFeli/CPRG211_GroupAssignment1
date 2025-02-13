@@ -210,7 +210,7 @@ namespace GroupAssignment1
                     found = true;//To avoid error message
                 }
             }
-            if (!found) Console.WriteLine("Invalid microwave room.");//If roomtype is wrong
+            if (!found) Console.WriteLine("Invalid sound rating.");//If sound rating is wrong
         }
 
 
