@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace GroupAssignment1
 {
+    public enum voltageEnum { Low, High}
     internal class Vacuum : Appliance
     {
         private int _batteryVoltage;
-        private int _grade;
+        private string _grade;
 
         public int BatteryVoltage
         {
@@ -17,6 +18,21 @@ namespace GroupAssignment1
             set { _batteryVoltage = value >= 0 ? value : 0; }
         }
 
+        public voltageEnum voltageValue { get; set; }
+        public string BatteryVoltageDisplay
+        {
+            get
+            {
+                if(voltageValue == voltageEnum.Low)
+                {
+                    return "Low";
+                }
+                else
+                {
+                    return "High";
+                }
+            }
+        } 
         public string Grade
         {
             get; set;
@@ -43,7 +59,7 @@ namespace GroupAssignment1
                    $"Color: {Color}\n" +
                    $"Price: {Price}\n" +
                    $"Grade: {Grade}\n" +
-                   $"Battery Voltage:{BatteryVoltage}\n"
+                   $"BatteryVoltage:{BatteryVoltageDisplay}\n"
                 ;
         }
     }

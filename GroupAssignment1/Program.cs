@@ -17,6 +17,7 @@ while (userOption != 5)
 
     Console.WriteLine("Enter option:");
     string option = Console.ReadLine();
+    Console.WriteLine("");
     userOption = Convert.ToInt32(option);
     switch (userOption)
     {
@@ -30,9 +31,7 @@ while (userOption != 5)
             ModernAppliance.SearchByType(appliances);
             break;
         case 4:
-            Console.WriteLine("Enter number of appliances:");
-            string numOfAppliance = Console.ReadLine();
-
+            ModernAppliance.RandomAppliance(appliances);
 
             break;
         case 5:

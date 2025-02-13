@@ -32,6 +32,13 @@ namespace GroupAssignment1
                     case "2":
                         appliance = new Vacuum(fields[0], fields[1], int.Parse(fields[2]), double.Parse(fields[3]), fields[4], double.Parse(fields[5]), fields[6], int.Parse(fields[7]));
                         appliances.Add(appliance);
+                        int voltage = int.Parse(fields[7]);
+                        voltageEnum voltageAmount;
+                        if (voltage == 18)
+                        {
+                            voltageAmount = voltageEnum.Low;
+                        }
+                        else voltageAmount = voltageEnum.High;
                         break;
                     case "3":
                         string enumField = fields[7];
