@@ -24,7 +24,7 @@ namespace GroupAssignment1
                     if (appliance.Quantity > 0)//If there are items to be checked out
                     {
                         appliance.Quantity--;
-                        Console.WriteLine($"""Appliance "{appliance.ItemNumber}" has beeen checked out.""");
+                        Console.WriteLine($"""Appliance "{appliance.ItemNumber}" has been checked out.""");
                         Console.WriteLine();
                     }
                     else//No items to be checked out
